@@ -1,16 +1,6 @@
 export default function Projects(){
     const projects=[
-        {
-    id: 1,
-    title: 'Oasis',
- 
-    description:
-      `An app developed using ReactJs and Java. the MapBox API had been used for the map element of the app. This app aimed to tackle water scarcities in remote areas`,
-    
-    href: 'https://splashpool.github.io/',
-    imageUrl:
-        '../../oasis.png',
-  },{
+   {
     id: 2,
     title: 'NC-News',
     
@@ -40,7 +30,18 @@ frontend.`,
     href: 'https://events-surfer.netlify.app/',
     imageUrl:
         '../../event-manager.png',
-    }
+    },
+         {
+    id: 1,
+    title: 'Oasis',
+ 
+    description:
+      `An app developed using ReactJs and Java. the MapBox API had been used for the map element of the app. This app aimed to tackle water scarcities in remote areas`,
+    
+    href: 'https://splashpool.github.io/',
+    imageUrl:
+        '../../oasis.png',
+  }
     ]
     return(
 
