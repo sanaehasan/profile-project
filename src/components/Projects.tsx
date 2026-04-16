@@ -1,7 +1,7 @@
 export default function Projects(){
     const projects=[
    {
-    id: 2,
+    id: 1,
     title: 'NC-News',
     
     description:`It’s a mini news app, The API was developed using PSQL and React using an MVC model hosted using
@@ -12,7 +12,7 @@ deployed by using NetLify`,
         '../../nc-news.png',
     },
     {
-    id: 3,
+    id: 2,
     title: 'Ripple',
 
     description:`Ripple is an app for good aimed to share extra items with needy people, The backend was developed using the MVC
@@ -22,7 +22,7 @@ href: 'https://ripple-rouge.vercel.app/',
       imageUrl:
         '../../ripple.png',
  },{
-    id: 4,
+    id: 3,
     title: 'Events manager',
     description:`It's an event management app that i created MVP for as a freelancer. I was responsible for developing and
 managing this project and used Node.js and Express in the backend, Typescript, React and Tailwind in the
@@ -32,7 +32,7 @@ frontend.`,
         '../../event-manager.png',
     },
          {
-    id: 1,
+    id: 4,
     title: 'Oasis',
  
     description:
