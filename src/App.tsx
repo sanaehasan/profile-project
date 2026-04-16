@@ -1,11 +1,26 @@
+import { Route, Routes } from 'react-router'
 import './App.css'
+import Nav from './components/Nav'
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
+import NotFound from './components/NotFount'
 
 function App() {
 
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">    Hello world!  </h1>
+    <Nav></Nav>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/reachme" element={<Contact/>}/>
+      <Route path="/projects" element={<Projects/>}/>
+       <Route path="/*" element={<NotFound/>}/>
+    </Routes>
+  
     </>
   )
 }
