@@ -1,6 +1,6 @@
 @import "tailwindcss";
 :root {
-  font-family: fantasy, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: serif, system-ui, Avenir, Helvetica, Arial,sans-serif ;
   /* background-image: url("./assets/background.svg"); */
   
 }
